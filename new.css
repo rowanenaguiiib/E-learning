@@ -1,0 +1,42 @@
+h1, body {font-family: "Century Gothic", CenturyGothic, AppleGothic;
+text-align: center;
+font-style: italic;
+color: orangered;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:orangered;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:"Century Gothic", CenturyGothic, AppleGothic;
+}
+
+/* Change the link color to #7FFFD4 (aquamarine) on hover */
+li a:hover {
+  background-color: gold;
+}
+ul:hover li {
+    opacity: .5;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+body {text-align: center;}
+
+body {background-color: gainsboro;
+}
